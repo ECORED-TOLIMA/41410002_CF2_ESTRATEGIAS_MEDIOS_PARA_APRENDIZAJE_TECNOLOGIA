@@ -22,408 +22,696 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> comprobar la comprensión de los conceptos relacionados con la estructuración del plan de formación, la selección de materiales educativos y recursos tecnológicos, y la planeación didáctica de clases, mediante preguntas que permitan reconocer la relación entre las estrategias metodológicas, las actividades de aprendizaje y la evaluación.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el propósito principal de un plan de formación?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Reunir recursos tecnológicos para todas las sesiones.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
+              texto: 'Establecer únicamente la duración de cada clase.',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
-              esCorrecta: false,
+              texto:
+                'Articular los elementos necesarios para alcanzar los resultados de aprendizaje.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Organizar contenidos sin relacionarlos con la evaluación.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Para qué se realiza la caracterización de los aprendices antes de planear?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto:
+                'Para reconocer sus conocimientos previos, necesidades y condiciones.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Para asignar una calificación definitiva al grupo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Para reducir el número de resultados de aprendizaje.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto:
+                'Para seleccionar siempre herramientas digitales avanzadas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Un instructor-tutor necesita que los aprendices practiquen un procedimiento técnico en un entorno controlado. ¿Qué recurso sería especialmente pertinente?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Un folleto institucional.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Un pódcast sobre experiencias laborales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Una infografía de conceptos generales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
+              texto: 'Un simulador interactivo.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál es una característica de los materiales educativos interactivos?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Presentan exclusivamente información escrita.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permiten la participación del usuario y ofrecen respuestas a sus acciones.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Se utilizan únicamente en actividades presenciales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No requieren interacción por parte del aprendiz.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué debe definirse principalmente antes de seleccionar los recursos para una clase?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El resultado de aprendizaje que se busca alcanzar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La cantidad de aplicaciones que se utilizarán.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El diseño gráfico de los materiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La duración de los videos disponibles.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 6,
+          texto: '¿Cuál es la función principal de la evaluación diagnóstica?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Asignar la calificación final del proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reemplazar las demás evaluaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Reconocer los conocimientos iniciales y orientar las decisiones pedagógicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Comprobar exclusivamente el manejo de herramientas digitales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué instrumento permite valorar una actividad mediante criterios previamente establecidos y niveles de desempeño?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un foro de discusión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Una rúbrica de evaluación.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un video introductorio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una presentación de contenidos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué significa que exista alineación constructiva en una planeación didáctica?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Que todos los recursos tengan el mismo formato.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Que las actividades sean exclusivamente digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Que la evaluación se realice solo al terminar el curso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Que los resultados de aprendizaje, las actividades y la evaluación mantengan coherencia.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Cuál de los siguientes aspectos debe considerarse al seleccionar un material educativo?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Su pertinencia respecto al resultado de aprendizaje.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Su popularidad, independientemente de su utilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La cantidad de páginas o pantallas que contiene.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La complejidad de su diseño visual.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '¿Cuál es el propósito principal del cierre de una clase?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Introducir todos los contenidos por primera vez.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aumentar la cantidad de actividades sin revisar los avances.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Consolidar lo aprendido y reconocer los avances de los aprendices.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Sustituir las actividades prácticas por una exposición extensa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Qué función cumple un sistema de gestión del aprendizaje (LMS)?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
+                'Garantizar automáticamente el aprendizaje de todos los participantes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+                'Organizar contenidos, actividades, entregas y seguimiento del proceso formativo.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Sustituir la planeación pedagógica del instructor-tutor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Limitar el proceso formativo a documentos descargables.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Una clase utiliza varias herramientas digitales, pero estas no se relacionan con las actividades ni con el resultado de aprendizaje. ¿Qué debe revisarse?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La cantidad de dispositivos disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El diseño gráfico de cada herramienta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La duración de los recursos audiovisuales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La pertinencia pedagógica y la articulación de los recursos con los resultados.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            'Si el resultado de aprendizaje se relaciona con la elaboración de una propuesta, ¿cuál sería una evidencia pertinente?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'El horario de la sesión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La lista de herramientas instaladas.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto:
+                'Un documento que contenga la propuesta elaborada y argumentada.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Un enlace a un video sin una actividad asociada.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Cómo debe relacionarse la creatividad del instructor-tutor con los lineamientos institucionales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto:
+                'Debe orientarse al logro de los resultados y respetar las orientaciones institucionales.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Debe reemplazar los resultados de aprendizaje establecidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Debe evitar cualquier adaptación metodológica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Debe centrarse exclusivamente en incorporar herramientas digitales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué recurso es adecuado para que varios aprendices construyan y editen conjuntamente un documento?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Una cartilla impresa de consulta individual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Un pódcast educativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Un video demostrativo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un documento colaborativo en línea.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué debe hacer el instructor-tutor cuando la evidencia solicitada no permite comprobar el resultado de aprendizaje?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantener la actividad sin modificaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Revisar la coherencia entre el resultado, la actividad y la evidencia.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Añadir recursos tecnológicos sin revisar la evaluación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar el resultado de aprendizaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es el propósito de la apertura en una secuencia didáctica?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Presentar el cierre y las conclusiones de la clase.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Calificar definitivamente el desempeño de los aprendices.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Contextualizar la sesión, despertar el interés y orientar el aprendizaje.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Desarrollar todas las actividades prácticas previstas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué aspecto permite determinar si un recurso tecnológico puede utilizarse adecuadamente en un ambiente de aprendizaje?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Su compatibilidad con los dispositivos y las condiciones de acceso disponibles.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Su popularidad en las redes sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La cantidad de funciones que ofrece, aunque no sean necesarias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Su complejidad técnica, independientemente del grupo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Cuál es la finalidad de articular las actividades de aprendizaje con la evaluación?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar la cantidad de calificaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Evitar que los aprendices realicen actividades prácticas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar el mismo instrumento para cualquier resultado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Obtener evidencias que permitan valorar el logro de los resultados de aprendizaje.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+          mensaje_incorrecto:
+            'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el principio central de una planeación didáctica coherente?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Utilizar la mayor cantidad posible de materiales educativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Articular resultados, actividades, estrategias, recursos y evaluación con una intención pedagógica clara.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Concentrar el proceso formativo en exposiciones del instructor-tutor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Seleccionar las herramientas tecnológicas antes de definir los propósitos de aprendizaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia la comprensión de los conceptos clave para planear procesos formativos y seleccionar recursos educativos pertinentes.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

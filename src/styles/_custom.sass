@@ -1,53 +1,73 @@
 @use 'variables' as *
 .banner-principal-decorativo
   &-1
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 10%
+    right: 82%
+    width: 100px
+  &-2
+    animation: float1 1.7s ease-in-out infinite alternate
     position: absolute
     top: 68%
-    left: -10%
-    width: 20%
-  &-2
-    animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
-
-
+    right: 13%
+    width: 100px
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
-
-.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-  flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
-
+// .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+//   flex: 0 0 auto !important
+//   width: 58.33333333% !important
+// .banner-principal__img 
+//   padding-bottom: 0 !important
+// .banner-principal__row .banner-principal__img 
+//     width: 33%
+// .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+//   color: $white !important  
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
-  color: $white !important
+  color: $black !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, 
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: $white !important
 figcaption 
     font-weight: normal !important
-
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
-
-
+// .banner-interno__titulo__icono i
+//   color: $color-acento-botones !important
+.banner-principal .tarjeta
+  background-position: left 50% !important
+.banner-principal__row .banner-principal__img 
+  width: 489.5px !important
+.banner-principal
+  .banner-principal__row
+    transform: translateY(30px)
+.banner-principal__row
+  .banner-principal__info
+    max-width: 550px
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: 100% 100% !important
+    background-position: center
+    min-height: 520px
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+      overflow: visible !important
+      background-size: 100% 100% !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -64,43 +84,253 @@ figcaption
 .bg-color
   &-1
     background-color: $color-primario
-
-
-
-
-
-
-
+//- Modulo Backgrounds
+.bg01
+  background-image: url("../assets/curso/temas/bg/bg01.png")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -6.2rem !important
+  padding-inline: 6.2rem !important
+  @media (max-width: $bp-max-xl)
+    margin-inline: 0 !important       // Resetea y lo obliga a quedarse a 12 cols
+    padding-inline: 1.5rem !important  // Deja un espacio interno sutil para que no se pegue al borde
+    background-size: cover            // Cover para que el fondo se adapte bien a la nueva proporción
+  // Pantallas pequeñas (Móviles)
+  @media (max-width: $bp-max-lg)
+    margin-inline: 0 !important       // Se mantiene a 12 cols
+    padding-inline: 1rem !important   // Un poco menos de espacio en los lados para ganar área de lectura
+    background-size: cover
+.bg02
+  background-image: url("../assets/curso/temas/bg/bg02.png")
+  background-size: cover
+  background-repeat: no-repeat
+.tarjeta--bg03
+  background-image: url("../assets/curso/temas/bg/bg03.png")
+  background-size: cover
+  background-repeat: no-repeat
+//- Modulo colores bloques
+.bl01
+  background-color: #5B198D
+  //- Modulo cajones
+.cajon.c01
+  background-color: #D8FEFF
+.cajon.c02
+  background-color: #E2BDFE
+.cajon.c03
+  background-color: #F4E6FF
+.cajon.c04
+  background-color: #D4FFD2
+.cajon.c05
+  background-color: #B9F6E6
+//- Modulo tarjetas
+.tarjeta.c01
+  background-color: #D4FFD2
+.tarjeta.c02
+  background-color: #F4E6FF 
+.tarjeta.c03
+  background-color: #B4EDFF
+.tarjeta.c04
+  background-color: #E2BDFE
+.tarjeta.c05
+  background-color: #B8FEAD
+.tarjeta.c06
+  background-color: #FFD5F5
+.tarjeta-numerada.c01
+  color:#FE83F5
+.tarjeta-numerada__numero
+  background-color: #FE83F5
+//- Modulo slyders
+.tarjeta--slyder
+  height: 100%
+  background-color: $white
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #30E2BE
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #30E2BE
+  color: #fff
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #30E2BE
+  color: #FFFF
+  border: none
+  opacity: 100
+  // background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #30E2BE
+  color: #FFFF
+  border: none
+  opacity: 100
+  // background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__bullets__item
+  background-color: #30E2BE
+  border: 1px solid #30E2BE
+.slyder-a__bullets__item--active
+  background-color: #EEBABA
+  border: 1px solid #EEBABA
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  //-background-color: #122CD4
+  color: #FFFF
+  border: none
+  opacity: 100
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--right 
+  background-color: #30E2BE
+  border: none
+  color: #333
+.linea-tiempo-c__header__btn--left
+  background-color: #30E2BE
+  border: none
+  color: #333
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #D8FEFF !important 
+    .tarjeta.tarjeta--gris
+      background-color: #84DBFC
+      span
+        color: $black
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    span
+      color: #000 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #B9F6E6
+.tarjeta.tarjeta--gris
+  background-color: #30E2BE
+  span
+    color: $black
+.linea-tiempo-d__item__number
+  span
+    color: #fff
+//- tabs
+.tabs-c__tab
+  background-color: #B9F6E6
+  color: $black
+.tabs-c__tab--active
+  background-color: #fff
+  color: black
+.tabs-c
+  background-color: #F4E6FF
+  border: none
+//- Modulo tablas
+.table
+  width: 100%
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #D4FFD2
+.tabla-a.color-acento-contenido
+  td
+    text-align: left
+.tabla-a.color-primario
+  th
+    background-color: #D4FFD2
+  td
+    text-align: left
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+    padding: 0.75rem
+    text-align: left
+    vertical-align: top
+    word-break: break-word
+    hyphens: auto
+    white-space: nowrap
+    padding: 0.75rem
+    text-align: center
+.tabla-a.responsive table
+  min-width: 970px
+  border-collapse: collapse
+.tabla-a.responsive th, .tabla-a.responsive td
+  white-space: nowrap
+  padding: 0.75rem
+  text-align: center
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
+//- Colores td tablas
+  .tabla-a .td-ct01
+    background-color: #F6F6F6 !important
+//- Modulo medidas imagenes
+.img70
+  width: 70px 
+.img80
+  width: 80px 
+//- Modulo crd x3
+.crd01
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2.4rem
+    height: 100%
+    background-color: #B9F6E6
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-color: #F4E6FF
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      h5
+        color: $black !important
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle01
+        &::before
+          background-color: #C89EFF
+  &.crd--blue
+    background-color: #69D7E5
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+.bottomCircle01
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 100px
+    height: 100px
+    background-color: #30E2BE
+    border-radius: 999px
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
-
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
   .mb-cus
     margin-bottom: 2em  !important 
-
 //// TABLET 992--------------------------------------
 @media screen and (max-width: $bp-max-md)
   .mb-cus
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
-  
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
-
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
-
-  
- 
