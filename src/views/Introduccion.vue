@@ -24,11 +24,12 @@
       .col.col-lg-9.col-12.order-lg-2.order-2
         .cajon.cajon.c04.p-3
           p.mb-0(data-aos="fade-down") Una formación bien planeada no depende de la cantidad de recursos disponibles, sino de la intención con la que se seleccionan y articulan para favorecer el aprendizaje.
+    p.mb-4 Para complementar la comprensión de los temas abordados, se recomienda acceder al siguiente video:
     .row.justify-content-center.align-items-center           
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/5SLAcr7CK18?si=y6RqkZPxlhzfFMvi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 <script>
 export default {

@@ -162,7 +162,8 @@
               img(src='@/assets/curso/temas/t2/img17.svg' alt='AvatarTop')
           h4.text-center Evaluación y seguimiento
           p.text-center Cuestionarios, formularios y herramientas de gestión de tareas permiten recoger evidencias, ofrecer retroalimentación y reconocer avances en el aprendizaje.
-    p.mb-4 Para comprender cómo se integran estos recursos, conviene reconocer que su uso no consiste simplemente en incorporar herramientas digitales a una actividad. Es necesario establecer qué función desempeñan, cómo se utilizarán y qué resultado se espera alcanzar. Por ejemplo, si la actividad busca desarrollar la capacidad de resolver una situación del contexto laboral, el instructor-tutor puede proponer un caso de estudio en la plataforma, facilitar un documento de consulta, organizar un foro de discusión y solicitar una propuesta de solución como evidencia de aprendizaje.
+    p Para comprender cómo se integran estos recursos, conviene reconocer que su uso no consiste simplemente en incorporar herramientas digitales a una actividad. Es necesario establecer qué función desempeñan, cómo se utilizarán y qué resultado se espera alcanzar. Por ejemplo, si la actividad busca desarrollar la capacidad de resolver una situación del contexto laboral, el instructor-tutor puede proponer un caso de estudio en la plataforma, facilitar un documento de consulta, organizar un foro de discusión y solicitar una propuesta de solución como evidencia de aprendizaje.
+    p.mb-4 La siguiente tabla presenta algunos recursos tecnológicos y sus posibles aplicaciones en los ambientes de aprendizaje:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12
         .titulo-sexto.color-acento-contenido
