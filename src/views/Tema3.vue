@@ -232,7 +232,7 @@
               p.mb-0 Los recursos tecnológicos deben integrarse de acuerdo con los propósitos de aprendizaje, las herramientas disponibles y las condiciones de acceso.
             .col-lg-2.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/temas/t3/img27.svg', alt="")
-    p.mb-4 Estos aspectos se fundamentan en los lineamientos descritos en el documento de referencia para la planeación didáctica.
+    //-p.mb-4 Estos aspectos se fundamentan en los lineamientos descritos en el documento de referencia para la planeación didáctica.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-12
         .cajon.cajon.c01.color-secundario.p-4.mb-0

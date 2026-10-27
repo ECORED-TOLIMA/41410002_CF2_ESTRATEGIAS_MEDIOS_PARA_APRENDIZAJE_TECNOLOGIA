@@ -245,12 +245,12 @@ export default {
             {
               id: 'b',
               texto: 'Una rúbrica de evaluación.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto: 'Un video introductorio.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'd',
